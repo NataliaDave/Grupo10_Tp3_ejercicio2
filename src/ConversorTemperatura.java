@@ -6,7 +6,13 @@
 
 /**
  *
- * @author Usuario
+ * @author Grupo10 TP3 Ejercicio 1
+ * Altamirano Karina
+ * Gianfranco Antonacci Matías
+ * Bequis Marcos Ezequiel
+ * Dave  Natalia
+ * Quiroga Dorzan Alejo
+ * Franzinni Tatiana
  */
 public class ConversorTemperatura extends javax.swing.JFrame {
 
