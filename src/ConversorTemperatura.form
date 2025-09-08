@@ -34,20 +34,12 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" attributes="0">
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="jDesktopPane1" max="32767" attributes="0"/>
-              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
-          </Group>
+          <Component id="jDesktopPane1" alignment="1" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" attributes="0">
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="jDesktopPane1" max="32767" attributes="0"/>
-              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
-          </Group>
+          <Component id="jDesktopPane1" alignment="1" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
   </Layout>
@@ -57,18 +49,19 @@
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="1" attributes="0">
-                  <EmptySpace min="0" pref="12" max="32767" attributes="0"/>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
                   <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="17" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="1" attributes="0">
-                  <EmptySpace pref="33" max="32767" attributes="0"/>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
                   <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace max="-2" attributes="0"/>
+                  <EmptySpace pref="33" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -86,58 +79,48 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jrbFahrenheitKelvin" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jrbKelvinFahrenheit" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="1" attributes="0">
-                                  <Component id="jrbCelsiusKelvin" min="-2" pref="98" max="-2" attributes="0"/>
-                                  <Component id="jrbKelvinCelsius" min="-2" pref="98" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace max="32767" attributes="0"/>
-                          </Group>
-                          <Group type="102" alignment="0" attributes="0">
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jrbRadianesCelsius" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jrbCelsiusRadianes" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace pref="50" max="32767" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jrbCelsiusFahrenheit" min="-2" pref="98" max="-2" attributes="0"/>
-                                  <Component id="jrbFahrenheitCelsius" min="-2" pref="124" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                          <Component id="jrbFahrenheitEntrada" min="-2" max="-2" attributes="0"/>
+                          <Component id="jrbCelsiusEntrada" min="-2" max="-2" attributes="0"/>
+                          <Component id="jrbKelvinEntrada" min="-2" max="-2" attributes="0"/>
+                          <Component id="jrbRadianesEntrada" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="57" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jrbCelsiusSalida" min="-2" pref="98" max="-2" attributes="0"/>
+                          <Component id="jrbFahrenheitSalida" min="-2" pref="124" max="-2" attributes="0"/>
+                          <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                              <Component id="jrbKelvinSalida" min="-2" pref="98" max="-2" attributes="0"/>
+                              <Component id="jrbRadianesSalida" min="-2" pref="98" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                  </Group>
-                  <Group type="102" attributes="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" attributes="0">
-                              <EmptySpace min="-2" pref="107" max="-2" attributes="0"/>
-                              <Component id="jButtonConvertir" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="121" max="-2" attributes="0"/>
-                              <Component id="jTextField1" min="-2" pref="69" max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
-                      <EmptySpace max="32767" attributes="0"/>
+                      <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="1" attributes="0">
                       <EmptySpace max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
                           <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
                               <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <EmptySpace min="-2" pref="98" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="129" max="-2" attributes="0"/>
+                              <Component id="jTextField1" min="-2" pref="69" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="109" max="-2" attributes="0"/>
+                              <Component id="jButtonConvertir" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -146,33 +129,33 @@
                   <Group type="102" alignment="1" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
                       <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="jTextField1" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jrbCelsiusFahrenheit" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jrbCelsiusRadianes" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jrbCelsiusSalida" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jrbCelsiusEntrada" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jrbFahrenheitCelsius" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jrbRadianesCelsius" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jrbFahrenheitSalida" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jrbFahrenheitEntrada" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jrbCelsiusKelvin" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jrbFahrenheitKelvin" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jrbKelvinSalida" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jrbKelvinEntrada" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jrbKelvinCelsius" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jrbKelvinFahrenheit" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jrbRadianesSalida" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jrbRadianesEntrada" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <EmptySpace pref="26" max="32767" attributes="0"/>
                       <Component id="jButtonConvertir" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace pref="59" max="32767" attributes="0"/>
+                      <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -213,7 +196,7 @@
                 <Property name="text" type="java.lang.String" value="Conversor de Temperatura"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JRadioButton" name="jrbCelsiusFahrenheit">
+            <Component class="javax.swing.JRadioButton" name="jrbCelsiusSalida">
               <Properties>
                 <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                   <ComponentRef name="bgrMedidaSalida"/>
@@ -221,10 +204,10 @@
                 <Property name="text" type="java.lang.String" value="A Celsius"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jrbCelsiusFahrenheitActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jrbCelsiusSalidaActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JRadioButton" name="jrbFahrenheitCelsius">
+            <Component class="javax.swing.JRadioButton" name="jrbFahrenheitSalida">
               <Properties>
                 <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                   <ComponentRef name="bgrMedidaSalida"/>
@@ -232,10 +215,10 @@
                 <Property name="text" type="java.lang.String" value="A Fahrenheit"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jrbFahrenheitCelsiusActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jrbFahrenheitSalidaActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JRadioButton" name="jrbCelsiusKelvin">
+            <Component class="javax.swing.JRadioButton" name="jrbKelvinSalida">
               <Properties>
                 <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                   <ComponentRef name="bgrMedidaSalida"/>
@@ -243,7 +226,7 @@
                 <Property name="text" type="java.lang.String" value="A Kelvin"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JRadioButton" name="jrbKelvinCelsius">
+            <Component class="javax.swing.JRadioButton" name="jrbRadianesSalida">
               <Properties>
                 <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                   <ComponentRef name="bgrMedidaSalida"/>
@@ -251,7 +234,7 @@
                 <Property name="text" type="java.lang.String" value="A Radianes"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JRadioButton" name="jrbCelsiusRadianes">
+            <Component class="javax.swing.JRadioButton" name="jrbCelsiusEntrada">
               <Properties>
                 <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                   <ComponentRef name="bgrMedidaEntrada"/>
@@ -259,18 +242,18 @@
                 <Property name="text" type="java.lang.String" value="De Celsius"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jrbCelsiusRadianesActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jrbCelsiusEntradaActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JRadioButton" name="jrbRadianesCelsius">
+            <Component class="javax.swing.JRadioButton" name="jrbFahrenheitEntrada">
               <Properties>
                 <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                   <ComponentRef name="bgrMedidaEntrada"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="De Farenheit"/>
+                <Property name="text" type="java.lang.String" value="De Fahrenheit"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JRadioButton" name="jrbFahrenheitKelvin">
+            <Component class="javax.swing.JRadioButton" name="jrbKelvinEntrada">
               <Properties>
                 <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                   <ComponentRef name="bgrMedidaEntrada"/>
@@ -278,7 +261,7 @@
                 <Property name="text" type="java.lang.String" value="De Kelvin"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JRadioButton" name="jrbKelvinFahrenheit">
+            <Component class="javax.swing.JRadioButton" name="jrbRadianesEntrada">
               <Properties>
                 <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                   <ComponentRef name="bgrMedidaEntrada"/>
